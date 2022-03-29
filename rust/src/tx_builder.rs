@@ -323,7 +323,7 @@ impl TransactionBuilder {
     /// This automatically selects and adds inputs from {inputs} consisting of just enough to cover
     /// the outputs that have already been added.
     /// This should be called after adding all certs/outputs/etc and will be an error otherwise.
-    /// Uses CIP2: https://github.com/bcc-foundation/CIPs/blob/master/CIP-0002/CIP-0002.md
+    /// Uses CIP2: https://github.com/the-blockchain-company/CIPs/blob/master/CIP-0002/CIP-0002.md
     /// Adding a change output must be called after via TransactionBuilder::add_change_if_needed()
     /// This function, diverging from CIP2, takes into account fees and will attempt to add additional
     /// inputs to cover the minimum fees. This does not, however, set the txbuilder's fee.

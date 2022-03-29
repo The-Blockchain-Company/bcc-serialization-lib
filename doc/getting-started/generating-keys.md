@@ -30,7 +30,7 @@ const stakeKey = accountKey
 
 ## BIP39 Entropy
 
-To generate a `BIP32PrivateKey` from a BIP39 recovery phrase it must be first converted to entropy following the [BIP39 protocol](). This library does not directly handle that, but once entropy is created it is possible to use `Bip32PrivateKey.from_bip39_entropy(entropy, password)`. For more information see the [CIP3](https://github.com/bcc-foundation/CIPs/pull/3) Bcc improvement proposal. The code below uses the `bip39` npm package to generate a root `BIP32PrivateKey` from a BIP39 mnemonic.
+To generate a `BIP32PrivateKey` from a BIP39 recovery phrase it must be first converted to entropy following the [BIP39 protocol](). This library does not directly handle that, but once entropy is created it is possible to use `Bip32PrivateKey.from_bip39_entropy(entropy, password)`. For more information see the [CIP3](https://github.com/the-blockchain-company/CIPs/pull/3) Bcc improvement proposal. The code below uses the `bip39` npm package to generate a root `BIP32PrivateKey` from a BIP39 mnemonic.
 
 ```javascript
 import { mnemonicToEntropy } from 'bip39';

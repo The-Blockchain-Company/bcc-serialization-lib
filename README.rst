@@ -118,9 +118,9 @@ To publish new versions to NPM (only needed if you are an admin of this project)
    npm run js:publish-browser
    npm run js:publish-asm
 
-.. _NodeJS WASM package: https://www.npmjs.com/package/@the-blockchain-company/bcc-serialization-lib-nodejs
-.. _Browser (chrome/firefox) WASM package: https://www.npmjs.com/package/@the-blockchain-company/bcc-serialization-lib-browser
-.. _Browser (pure JS - no WASM) ASM.js package: https://www.npmjs.com/package/@the-blockchain-company/bcc-serialization-lib-asmjs
+.. _NodeJS WASM package: https://www.npmjs.com/package/@theblockchaincompanyio/bcc-serialization-lib-nodejs
+.. _Browser (chrome/firefox) WASM package: https://www.npmjs.com/package/@theblockchaincompanyio/bcc-serialization-lib-browser
+.. _Browser (pure JS - no WASM) ASM.js package: https://www.npmjs.com/package/@theblockchaincompanyio/bcc-serialization-lib-asmjs
 .. _React-Native mobile bindings: https://github.com/The-Blockchain-Company/react-native-haskell-sophie
 .. _cddl-codegen: https://github.com/The-Blockchain-Company/cddl-codegen
 .. _Typescript: https://www.typescriptlang.org/
